@@ -1,0 +1,142 @@
+@media only screen and (max-width: 800px) {
+    .th, .darkmode .th {
+        background: #f45c43;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .darkmode .th {
+        background: #0c70de;
+    }
+}
+
+.darkmode .th {
+    background: #0b0a0d;
+}
+.mngentwo {
+    background: none !important;
+    height: auto;
+    padding: 1.33em 0;
+    overflow: unset;
+}
+@media only screen and (max-width: 800px) {
+    .th {
+        overflow: hidden;
+        background: #0c70de;
+        height: 50px;
+    }
+}
+.th {
+    overflow: hidden;
+    background: #FFF;
+    height: 60px;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+body.styletwo {
+    background: #0e0e0e;
+    color: #aaa;
+    font-size: 15px;
+}
+.darkmode {
+    background: #16151d;
+    color: #CCC;
+}
+body {
+    position: relative;
+    /* background: #eef0f2; */
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    /* color: #222; */
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    height: 10px;
+    width: 3px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #f45c43;
+}
+
+.site-branding img{
+    width: 270px;
+    aspect-ratio: auto 270 / 50;
+    height: 50px;
+}
+
+.konten{
+    width: 187px;
+    aspect-ratio: auto 187 / 235;
+    height: 235px;
+    position: relative;
+    overflow: hidden;
+    margin: 7px;
+}
+.konten .gambar {  
+    /* overflow: hidden; */
+    margin: 0 auto;
+}
+
+.konten .gambar img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.konten .gambar img:hover {
+    /* -webkit-transform: scale(1.08); */
+    transform: scale(1.10);
+  }
+
+.konten .text{
+    background: none;
+    padding: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    border-top-right-radius: 7px;
+    padding: 3px 7px;
+    font-size: 13px;
+    background: #0c70de;
+  }
+
+  .sampul{
+    border: 0;
+    padding: 0;
+  }
+
+  .sampul h5{
+    font-size: 22px;
+  }
+
+  .judul{
+    height: 33px;
+    overflow: hidden;
+    font-size: .95em;
+    margin: 8px 0;
+    margin-bottom: 0;
+    line-height: 1.25em;
+    text-align: center;
+  }
+
+  /* style konten sidebar  */
+  
